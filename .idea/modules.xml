@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rad-clear.iml" filepath="$PROJECT_DIR$/.idea/modules/rad-clear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rad-clear_main.iml" filepath="$PROJECT_DIR$/.idea/modules/rad-clear_main.iml" group="rad-clear" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/rad-clear_test.iml" filepath="$PROJECT_DIR$/.idea/modules/rad-clear_test.iml" group="rad-clear" />
+    </modules>
+  </component>
+</project>

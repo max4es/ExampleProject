@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'idea'
+repositories {
+mavenCentral()
+}
+dependencies {
+//compile fileTree(dir: './lib', include: ['*.jar'])
+    // https://mvnrepository.com/artifact/commons-io/commons-io
+    compile group: 'commons-io', name: 'commons-io', version: '1.2'
+// https://mvnrepository.com/artifact/org.slf4j/nlog4j
+    compile group: 'org.slf4j', name: 'nlog4j', version: '1.2.21'
+// https://mvnrepository.com/artifact/xalan/xalan
+    compile group: 'xalan', name: 'xalan', version: '2.7.0'
+// https://mvnrepository.com/artifact/xalan/serializer
+    compile group: 'xalan', name: 'serializer', version: '2.7.1'
+// https://mvnrepository.com/artifact/edu.ucar/netcdf
+    compile group: 'edu.ucar', name: 'netcdf', version: '4.2.20'
+
+
+
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
